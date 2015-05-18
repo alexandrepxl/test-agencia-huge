@@ -1,0 +1,1391 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+
+    margin:0;
+    padding:0;
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+body{
+   position: relative;
+}
+
+.container{
+
+    max-width: 1200px;
+    margin: 0 auto; 
+}
+
+.menu-responsivo{
+    display: none;
+}
+
+
+/*  css header! */
+header{
+    background: url('../images/bg_header.jpg') no-repeat top center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+header .container{
+    height: 800px;
+    position: relative;
+}
+
+header .container .creative{
+    position: absolute;
+    top: 360px;
+    left: 270px;
+    z-index: 20;
+}
+
+header .container .from-rio{
+    position: absolute;
+    top: 483px;
+    left: 310px;
+    z-index: 20;
+}
+
+header nav{
+    background: #3f3f3f;
+    height: 88px;
+
+}
+
+header nav ul{
+    width: 1020px;
+    margin: 0 auto;
+}
+
+header nav ul li{
+    position: relative;
+    list-style: none;
+    float: left;
+    text-align: center;
+    margin: 0 3px;
+    width: 85px;
+    
+}
+
+header nav ul li a{
+    display: block;
+    color: #FFF;
+    font-size: 0.85em;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 35px 0;
+}
+
+.is-checked .name{
+   color: #fff !important;
+}
+
+header nav ul li a:hover{
+    color: #f9c741;
+    
+}
+
+/*     */
+
+
+header .hide-logo{
+    overflow: hidden;
+    height: 115px;
+    background: #fff;
+}
+
+header nav .container-logo{
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    background: #dcab27;
+    display: none;
+    width: 85px;
+    height: 114px;
+    -moz-border-radius-bottomright: 10px;
+    -webkit-border-bottom-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    -moz-border-radius-bottomleft: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+   
+}
+
+
+
+header nav .is-checked .container-logo{
+     display: block;
+     -webkit-animation-duration: 0.5s;
+     -moz-animation-duration: 0.5s;
+     animation-duration: 0.5s;
+     -moz-animation-delay: 1s;
+     -webkit-animation-delay: 1s;
+     animation-delay: 1s;
+ 
+}
+
+
+
+header nav .container-logo .content{
+    background:#f9c741;
+    height: 109px;
+    -moz-border-radius-bottomright: 10px;
+    -webkit-border-bottom-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    -moz-border-radius-bottomleft: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+
+header nav .container-logo .content .lorem{
+    padding: 15px 0 5px 0;
+}
+
+header nav .container-logo .content .name{
+    font-size: 0.8em;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+
+/* css section feature */
+section.features{
+    padding: 0 0 70px 0;
+    overflow: hidden;
+    min-height: 460px;
+}
+
+section.features .container .box-text{
+    padding: 70px 0 100px 0;
+
+}
+
+section.features .container .box-text p{
+    text-align: center;
+    font-size: 24px;
+}
+
+section.features .container .box-text p span{
+    color: #f9c741;
+    font-weight: 600;
+}
+
+
+section.features .container .box-list ul li{
+    position: relative;
+    list-style: none;
+    float: left;
+    text-align: center;
+    width: 200px;
+    margin: 20px 20px
+}
+
+section.features .container .box-list ul li{
+   display: none;
+}
+
+section.features .container .box-list .many, .time, .retina, .support {
+
+    
+    -webkit-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    animation-delay: 1s;
+}
+
+section.features .container .box-list .center{
+    
+     -webkit-animation-delay: 0.5s;
+    -moz-animation-delay: 0.5s;
+    animation-delay: 0.5ss;xw
+}  
+
+section.features .container .box-list .center{
+    padding: 120px 0 0 0;
+}
+
+section.features .container .box-list .center .ico-feature{
+   position: absolute;
+   top: -50px;
+   left: 30px;
+}
+
+section.features .container .box-list ul li h3{
+   font-size: 0.98em;
+   color: #555555;
+   font-weight: 600;
+}
+
+section.features .container .box-list ul li p{
+    font-size: 0.85em;
+    padding: 10px 0 0 0;
+    color: #999999;
+    
+}
+
+/* css section works */
+section.works{
+    background: #f9c741;
+    overflow: hidden;
+}
+
+section.works .container{
+    padding: 148px 0 0 0;
+}
+
+section.works .container h1{
+    text-align: center;
+    color: #fff;
+    font-size: 2.1em;
+}
+
+section.works .container h1 span{
+    color: #3f3f3f;
+}
+
+section.works .container .box-text{
+    text-align: center;
+    margin: 0 auto;
+    width: 730px;
+    color: #fff;
+    font-size: 0.9em;
+    line-height: 25px;
+    padding: 35px 0 45px 0;
+}
+
+section.works .container .navigation{
+    width: 875px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+section.works .container .navigation nav{
+
+}
+
+
+section.works .container .navigation nav li{
+    list-style: none;
+    float: left;
+    margin: 20px 15px 20px 15px;
+}
+
+section.works .container .navigation nav li a{
+    color: #fff;
+    display: block;
+    font-size: 0.8em;
+    font-weight: 600;
+    padding: 10px 15px 10px 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    -webkit-border-radius: 90px;
+    -moz-border-radius: 90px;
+    border-radius: 90px;
+    border: solid 2px #fff;
+}
+
+/* BUTTON checked */
+
+section.works .container .navigation nav li a.is-checked{
+    background: #3f3f3f;
+    color: #f9c741;
+    border: solid 1px #3f3f3f;
+}
+
+
+section.works .container .box-gallery{
+    width: 1190px;
+    height: 550px;
+    margin: 0 auto;
+}
+
+section.works .container .box-gallery li{
+    list-style: none;
+    float: left;
+    margin: 10px 7px 0px 8px;
+    
+}
+
+
+section.works .container .box-gallery li img{
+    
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+section.works .container .box-gallery li a {
+    
+    display: block;
+    overflow:hidden; 
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+/* Mask */
+section.works .container .box-gallery li .mask{
+   position: absolute;
+   z-index: 30;
+   width: 220px;
+   height: 250px;
+   top: 0;
+   display: block;
+   background: url('../images/bg_item_amina.png');
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   border-radius: 10px;
+     -webkit-animation-duration: 0.5s;
+     -moz-animation-duration: 0.5s;
+     animation-duration: 0.5s;
+}
+
+
+section.works .container .loadmore{
+    text-align: center;
+    padding: 60px 0 100px 0;
+}
+
+section.works .container .loadmore a{
+    text-decoration: none;
+    color: #f0c041;
+    display: block;
+    background: #3f3f3f;
+    width: 180px;
+    font-size: 0.85em;
+    font-weight: 600;
+    padding: 10px 0 10px 0;
+    text-transform: uppercase;
+    -webkit-border-radius: 90px;
+    -moz-border-radius: 90px;
+    border-radius: 90px;
+    margin: 0 auto;
+}
+
+/* css section location */
+section.location{
+    background: url('../images/image_map.jpg') no-repeat center top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+section.location .container{
+    height: 799px;
+}
+
+/* css section contact */
+section.contact{
+    background: #3f3f3f;
+}
+
+section.contact .container{
+    padding: 130px 0 0 0;
+    overflow: hidden;
+}
+
+section.contact .container h1{
+    text-align: center;
+    color: #fff;
+    font-size: 2.1em;
+    font-weight: 400;
+}
+
+section.contact .container h1 span{
+    color: #f9c741;
+}
+
+section.contact .container .box-text{
+    text-align: center;
+    margin: 0 auto;
+    width: 730px;
+    color: #fff;
+    font-size: 0.9em;
+    line-height: 25px;
+    padding: 35px 0 50px 0;
+}
+
+
+section.contact .container .form-contact fieldset{
+    border: none;
+}
+
+
+section.contact .container .form-contact .msg, .submit{
+    text-align: center;
+    position: relative;
+} 
+
+section.contact .container .form-contact .web-phone, .name-email{
+
+    width: 1050px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+section.contact .container .form-contact .web-phone div{
+    float: left;
+    padding: 5px 6px 10px 5px;
+}
+
+
+section.contact .container .form-contact .name-email div{
+    float: left;
+    padding: 5px 6px 10px 5px;
+    position: relative;
+
+}
+
+section.contact .container .form-contact fieldset input[type="text"]{
+    width: 488px;
+    height: 50px;
+    background-color: transparent;
+    -webkit-border-radius: 90px;
+    -moz-border-radius: 90px;
+    border-radius: 90px;
+    border: solid 5px #fff;
+    font-size: 0.9em;
+    color: #fff;
+    padding: 0 5px 0 10px;
+}
+
+section.contact .container .form-contact fieldset textarea{
+    width: 1015px;
+    height: 240px;
+    background-color: transparent;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    border: solid 5px #fff;
+    resize: none;
+    margin: 5px 0 10px 0;
+    padding: 20px 5px 0 10px;
+    font-size: 0.9em;
+    color: #fff;
+    font-family: inherit;
+}
+
+section.contact .container .form-contact fieldset input[type="submit"]{
+    background: #f9c741;
+    color: #fff;
+    border: none;
+    font-size: 0.8em;
+    width: 1040px;
+    height: 50px;
+    -webkit-border-radius: 90px;
+    -moz-border-radius: 90px;
+    border-radius: 90px;
+    margin: 5px 0 10px 0;
+}
+
+::-webkit-input-placeholder {
+   color: #fff; 
+}
+
+:-moz-placeholder {
+   color: #fff; 
+}
+
+::-moz-placeholder {
+   color: #fff;   
+}
+
+:-ms-input-placeholder {  
+   color: #fff;  
+}
+
+section.contact .container .contact-info{
+    width: 1060px;
+    margin: 0 auto;
+    padding: 75px 0 80px 0;
+    overflow: hidden;
+}
+
+section.contact .container .contact-info ul li{
+   list-style: none;
+    float: left;
+    width: 210px;
+    text-align: center;
+    color: #fff;
+    font-size: 0.8em;
+}
+
+section.contact .container .contact-info ul li p{
+    padding: 30px 0 0 0;
+}
+
+
+/* VALIDACAO*/
+
+#name-error, #email-error, #msg-error{
+    position: absolute;
+    top: 20px;
+    left: 190px;
+    color: #f9c741;
+    font-size: 0.88em;
+    font-weight: 600;  
+}
+
+#email-error{
+    left: 167px;
+}
+
+#msg-error{
+    top: 50px;
+    left: 40%;
+}
+
+
+section.contact .container .form-contact fieldset .error{
+   
+    border-color: #f9c741 !important;
+}
+
+
+input:focus {
+  outline: none;
+}
+
+textarea:focus{
+ outline:none;
+}
+
+
+/* Botao voltar ao topo*/
+
+.bt_voltar{
+    position: fixed;
+    z-index: 500;
+    bottom: 20px;
+    left: 20px;
+    display: none;
+}
+
+.bt_voltar a{
+    background: url('../images/botao_voltar.png') no-repeat center center;
+    display: block;
+    width: 30px;
+    height: 30px;
+    -webkit-animation-iteration-count: infinite;''
+    -moz-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+.bt_voltar a:hover{
+    background: url('../images/botao_voltar_on.png') no-repeat center center;
+}
+
+
+
+
+
+/* css footer */
+footer{
+    
+    background: #f9c741;
+
+}
+
+footer .container .social{
+    padding: 65px 0 50px 0;
+    overflow: hidden;
+    width: 650px;
+    margin: 0 auto;
+}
+
+footer .container .social ul li{
+    float: left;
+    list-style: none;
+    width: 92px;
+    text-align: center;
+}
+
+footer .copyright{
+    background: #FFF;
+    height: 11px;
+}
+
+
+/* Content sample */
+
+.content-sample{
+
+    padding: 100px 50px 100px 50px;
+    text-align: center;
+    font-size: 24px;
+}
+
+
+/* #Tablet Landscape 960 Grid
+================================================== */
+
+  @media only screen and (min-width: 960px) and (max-width: 1190px) {
+      
+      section.works .container .box-gallery li .mask{
+          display: none;
+      }
+      
+      .container {
+         max-width: 1000px;
+ 
+      }
+      
+      header{
+          
+          height: 400px;
+      }
+      
+      header .container {
+          height: 340px;
+      }
+      
+      header .container .creative {
+            position: absolute;
+            top: 105px;
+            left: 280px;
+            z-index: 20;
+        }
+         
+        header .container .from-rio {
+           position: absolute;
+           top: 178px;
+           left: 300px;
+           z-index: 20;
+        }
+        
+        header .container .from-rio img{
+            width: 410px;
+            height: auto;
+        }
+        
+        header .container .creative img{
+            width: 450px;
+            height: auto;
+        }
+      
+      section.features .container .box-text {
+             padding: 125px 0 115px 0;
+      }
+      
+      section.features .container .box-text p {
+         
+         padding: 0 150px 0 150px
+      }
+      
+      section.features .container .box-list ul li {
+          margin: 0;
+      }
+      
+      section.features .container .box-list ul li{
+         display: block;
+      }
+      
+      section.features .container .box-list ul li p {
+
+          padding: 10px 20px 0 20px;
+
+       }
+      
+      section.works .container {
+         padding: 100px 0 0 0;
+      }
+      
+      section.works .container .box-gallery {
+         width: 950px;
+         margin: 0 auto;
+      }
+      
+      section.works .container .box-gallery li img{
+            width: 140px;
+      }
+      
+       section.location {
+            background: url('../images/image_map.jpg') no-repeat center top;
+           -webkit-background-size: cover;
+           -moz-background-size: cover;
+           background-size: cover;
+        }
+        
+        section.location .container {
+            height: 450px;
+        }
+      
+      section.contact .container .form-contact .web-phone, .name-email {
+          width: 950px;
+          padding: 0 0 0 45px;
+      }
+      
+      
+      section.contact .container .form-contact fieldset input[type="text"] {
+         width: 425px;
+      }
+      
+      section.contact .container .form-contact fieldset textarea {
+        width: 885px;
+      }
+      
+      section.contact .container .form-contact fieldset input[type="submit"]{
+         width: 900px;
+      }
+      
+      section.contact .container .contact-info ul li {
+         width: 193px;
+      }
+      
+      
+  }
+
+
+
+/* Tablet (Portrait)
+================================================== 
+
+ 768px 
+*/
+
+    @media only screen and (min-width: 768px) and (max-width: 959px) {
+    
+        .hide-logo{
+            display: none;
+        }
+        
+        section.works .container .box-gallery li .mask{
+          display: none;
+        }
+        
+        .container{
+            max-width: 715px;
+         }
+        
+        header .container{
+           height: 350px;
+        }
+        
+        header .container .creative {
+            position: absolute;
+            top: 99px;
+            left: 153px;
+            z-index: 20;
+        }
+         
+        header .container .from-rio {
+           position: absolute;
+           top: 165px;
+           left: 174px;
+           z-index: 20;
+        }
+        
+        header .container .from-rio img{
+            width: 355px;
+            height: auto;
+        }
+        
+        header .container .creative img{
+            width: 400px;
+            height: auto;
+        }
+        
+        section.features{
+           padding: 0 0 90px 0;
+           overflow: hidden;
+        }
+
+        section.features .container .box-text{
+           padding: 135px 0 60px 0;
+
+
+        }
+        
+        section.works .container h1{
+            font-size: 2.2em;
+        }
+        
+        section.features .container .box-text p {
+            text-align: center;
+            font-size: 26px;
+            padding: 0 5px 0 5px;
+        }
+        
+        section.features .container .box-list {
+            margin: 0 auto;
+            width: 580px;
+        }
+        
+        section.features .container .box-list ul li {
+            position: relative;
+            width: 280px;
+            margin: 20px 3px 34px 6px;
+        }
+        
+        section.features .container .box-list ul li{
+           display: block;
+        }
+      
+        
+        section.features .container .box-list ul li p {
+            padding: 5px 10px;
+        }
+        
+        section.features .container .box-list .center .ico-feature {
+            position: absolute;
+            top: -25px;
+            left: 76px;
+        }
+        
+        section.works .container {
+            padding: 80px 0 0 0;
+        }
+        
+        section.works .container .box-text {
+            width: 100%;
+         }
+        
+        section.works .container .box-text p{
+           padding: 0 20px 0 20px;
+        }
+        
+        section.works .container .navigation {
+            width: 100%;
+            padding: 0 0 40px 0;
+         }
+        
+        section.works .container .navigation nav li {
+            margin: 0 0px 17px 12px;
+        }
+        
+        section.works .container .box-gallery {
+            width: 710px;
+        }
+        
+        section.works .container .box-gallery li img{
+            width: 220px;
+        }
+        
+        section.location {
+            background: url('../images/image_map.jpg') no-repeat center top;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+             background-size: cover;
+        }
+        
+        section.location .container {
+            height: 350px;
+        }
+        
+        section.contact .container {
+            padding: 80px 0 0 0;
+         }
+        
+        section.contact .container .box-text {
+            width: 100%;
+        }
+        
+        section.contact .container .box-text p{
+           padding: 0 20px 0 20px;
+        }
+        
+        section.contact .container h1{
+            
+            font-size: 1.9em;
+        }
+ 
+        section.contact .container .form-contact .web-phone, .name-email{
+           width: 100%;
+           text-align: center;
+        }
+        
+        section.contact .container .form-contact .name-email div {
+            
+            float: none;
+        }
+          
+        section.contact .container .form-contact .web-phone div {
+           
+            float: none;
+        }
+        
+        section.contact .container .form-contact fieldset input[type="text"] {
+    
+            width: 450px;
+        }
+        
+        section.contact .container .form-contact .msg, .submit {
+            
+            text-align: center;
+  
+        }
+        
+        section.contact .container .form-contact fieldset textarea {
+        
+            width: 450px;
+            height: 150px
+        }
+        
+        section.contact .container .form-contact fieldset input[type="submit"] {
+            width: 463px;
+        }
+        
+       section.contact .container .contact-info{
+           width: 580px;
+           padding-bottom: 60px;
+        }
+        
+        
+        section.contact .container .contact-info ul li {
+            width: 272px;
+            color: #fff;
+            font-size: 0.86em;
+        }
+        
+        
+        section.contact .container .contact-info ul li p {
+            padding: 5px 0 35px 0;
+        }
+      
+        
+        footer .container .social{
+            width: 100%;
+            padding: 50px 0 25px 0;
+        }
+        
+        footer .container .social ul li{
+            margin: 0 6px 17px 6px;
+            width: 89px;
+            
+        }
+        
+    
+    }
+
+
+/*  Mobile (Portrait)
+==================================================
+
+  320px */
+
+     
+
+    @media only screen and (max-width: 400px) {
+        
+        
+        section.works .container .box-gallery li .mask{
+          display: none;
+        }
+        
+         .hide-logo{
+            display: none;
+        }
+        
+        .container{
+            max-width: 320px;
+         }
+        
+        header .container{
+           height: 180px;
+        }
+        
+        
+        header .container .creative {
+            position: absolute;
+            top: 57px;
+            left: 48px;
+            z-index: 20;
+        }
+         
+        header .container .from-rio {
+           position: absolute;
+           top: 95px;
+           left: 55px;
+           z-index: 20;
+        }
+        
+        header .container .from-rio img{
+            width: 205px;
+            height: auto;
+        }
+        
+        header .container .creative img{
+            width: 225px;
+            height: auto;
+        }
+        
+        section.features{
+           padding: 0 0 90px 0;
+           overflow: hidden;
+        }
+
+        section.features .container .box-text{
+           padding: 70px 0 60px 0;
+
+        }
+        
+        section.works .container h1{
+            font-size: 1.9em;
+        }
+        
+        section.features .container .box-text p {
+            text-align: center;
+            font-size: 20px;
+            padding: 0 10px 0 10px;
+        }
+        
+        section.features .container .box-list {
+            width: 201px;
+            margin: 0 auto;
+        }
+        
+        section.features .container .box-list ul li {
+            position: relative;
+            width: 200px;
+            margin: 20px 0px;
+        }
+        
+        section.features .container .box-list ul li{
+           display: block;
+        }
+      
+        
+        section.features .container .box-list .center .ico-feature {
+            position: absolute;
+            top: -25px;
+        }
+        
+        section.works .container {
+            padding: 80px 0 0 0;
+        }
+        
+        section.works .container .box-text {
+            width: 100%;
+         }
+        
+        section.works .container .box-text p{
+           padding: 0 20px 0 20px;
+        }
+        
+        section.works .container .navigation {
+            width: 100%;
+            padding: 0 0 40px 0;
+         }
+        
+        section.works .container .navigation nav li {
+            margin: 0 0px 17px 12px;
+        }
+        
+        section.works .container .box-gallery {
+            width: 300px;
+        }
+        
+         section.works .container .box-gallery li img{
+            width: 135px;
+        }
+        
+        section.location {
+            background: url('../images/image_map_m_400.jpg') no-repeat center top;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            background-size: cover;
+        }
+        
+        section.location .container {
+            height: 350px;
+        }
+        
+        section.contact .container {
+            padding: 80px 0 0 0;
+         }
+        
+        section.contact .container .box-text {
+            width: 100%;
+        }
+        
+        section.contact .container .box-text p{
+           padding: 0 20px 0 20px;
+        }
+        
+        section.contact .container h1{
+            
+            font-size: 1.9em;
+        }
+ 
+        section.contact .container .form-contact .web-phone, .name-email{
+           width: 100%;
+           text-align: center;
+        }
+        
+        section.contact .container .form-contact .name-email div {
+            
+            float: none;
+        }
+          
+        section.contact .container .form-contact .web-phone div {
+           
+            float: none;
+        }
+        
+        section.contact .container .form-contact fieldset input[type="text"] {
+    
+            width: 280px;
+        }
+        
+        section.contact .container .form-contact .msg, .submit {
+            
+            text-align: center;
+  
+        }
+        
+        section.contact .container .form-contact fieldset textarea {
+        
+            width: 285px;
+            height: 150px
+        }
+        
+        section.contact .container .form-contact fieldset input[type="submit"] {
+           width: 304px;
+        }
+        
+       section.contact .container .contact-info{
+           width: 210px;
+           padding-bottom: 60px;
+        }
+        
+        
+        section.contact .container .contact-info ul li p {
+            padding: 5px 0 35px 0;
+        }
+      
+        
+        footer .container .social{
+            width: 100%;
+            padding: 50px 0 25px 0;
+        }
+        
+        footer .container .social ul li{
+            margin: 0 6px 17px 6px;
+            
+        }
+        
+        
+   
+        
+        
+        
+        
+    
+    }
+
+
+
+/* (Landscape)
+================================================== 
+
+   480px 
+ */
+    
+
+    @media only screen and (min-width: 401px) and (max-width: 767px) {
+        
+         .hide-logo{
+            display: none;
+        }
+        
+        section.works .container .box-gallery li .mask{
+          display: none;
+        }
+         
+        .container{
+            max-width: 450px;
+         }
+        
+        header .container{
+           height: 180px;
+        }
+        
+        header .container .creative {
+            position: absolute;
+            top: 50px;
+            left: 90px;
+            z-index: 20;
+        }
+         
+        header .container .from-rio {
+           position: absolute;
+           top: 95px;
+           left: 101px;
+           z-index: 20;
+        }
+        
+        header .container .from-rio img{
+            width: 240px;
+            height: auto;
+        }
+        
+        header .container .creative img{
+            width: 265px;
+            height: auto;
+        }
+        
+        section.features{
+           padding: 0 0 90px 0;
+           overflow: hidden;
+        }
+
+        section.features .container .box-text{
+           padding: 70px 0 60px 0;
+
+        }
+        
+        section.works .container h1{
+            font-size: 1.9em;
+        }
+        
+        section.features .container .box-text p {
+            text-align: center;
+            font-size: 20px;
+            padding: 0 5px 0 5px;
+        }
+        
+        section.features .container .box-list {
+            margin: 0 auto;
+            width: 420px;
+        }
+        
+        section.features .container .box-list ul li {
+            position: relative;
+            width: 200px;
+            margin: 20px 3px 34px 6px;
+        }
+        
+        section.features .container .box-list ul li{
+           display: block;
+        }
+      
+        
+        section.features .container .box-list ul li p {
+            padding: 5px 10px;
+        }
+        
+        section.features .container .box-list .center .ico-feature {
+            position: absolute;
+            top: -25px;
+        }
+        
+        section.works .container {
+            padding: 80px 0 0 0;
+        }
+        
+        section.works .container .box-text {
+            width: 100%;
+         }
+        
+        section.works .container .box-text p{
+           padding: 0 20px 0 20px;
+        }
+        
+        section.works .container .navigation {
+            width: 100%;
+            padding: 0 0 40px 0;
+         }
+        
+        section.works .container .navigation nav li {
+            margin: 0 0px 17px 12px;
+        }
+        
+        section.works .container .box-gallery {
+            width: 440px;
+        }
+        
+        section.works .container .box-gallery li img{
+            width: 205px;
+        }
+        
+        section.location {
+            background: url('../images/image_map.jpg') no-repeat center top;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            background-size: cover;
+        }
+        
+        section.location .container {
+            height: 350px;
+        }
+        
+        section.contact .container {
+            padding: 80px 0 0 0;
+         }
+        
+        section.contact .container .box-text {
+            width: 100%;
+        }
+        
+        section.contact .container .box-text p{
+           padding: 0 20px 0 20px;
+        }
+        
+        section.contact .container h1{
+            
+            font-size: 1.9em;
+        }
+ 
+        section.contact .container .form-contact .web-phone, .name-email{
+           width: 100%;
+           text-align: center;
+        }
+        
+        section.contact .container .form-contact .name-email div {
+            
+            float: none;
+        }
+          
+        section.contact .container .form-contact .web-phone div {
+           
+            float: none;
+        }
+        
+        section.contact .container .form-contact fieldset input[type="text"] {
+    
+            width: 280px;
+        }
+        
+        section.contact .container .form-contact .msg, .submit {
+            
+            text-align: center;
+  
+        }
+        
+        section.contact .container .form-contact fieldset textarea {
+        
+            width: 285px;
+            height: 150px
+        }
+        
+        section.contact .container .form-contact fieldset input[type="submit"] {
+           width: 304px;
+        }
+        
+       section.contact .container .contact-info{
+           width: 430px;
+           padding-bottom: 60px;
+        }
+        
+        
+        section.contact .container .contact-info ul li p {
+            padding: 5px 0 35px 0;
+        }
+      
+        
+        footer .container .social{
+            width: 100%;
+            padding: 50px 0 25px 0;
+        }
+        
+        footer .container .social ul li{
+            margin: 0 6px 17px 6px;
+            
+        }
+        
+    
+    }
+
